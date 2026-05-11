@@ -1,4 +1,4 @@
-#Mj Voice AI Assistant
+# Mj Voice AI Assistant
 An intelligent Voice AI Assistant built using Python that can listen to user voice commands, process speech, and respond with voice output. This project uses speech recognition and text-to-speech technologies to create a simple desktop voice assistant.
 
 ##🚀 Features
