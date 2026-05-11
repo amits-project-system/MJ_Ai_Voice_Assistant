@@ -1,7 +1,7 @@
 # Mj Voice AI Assistant
 An intelligent Voice AI Assistant built using Python that can listen to user voice commands, process speech, and respond with voice output. This project uses speech recognition and text-to-speech technologies to create a simple desktop voice assistant.
 
-##🚀 Features
+## 🚀 Features
 🎤 Voice Command Recognition
 🔊 Text-to-Speech Response
 🧠 AI-based Voice Interaction
@@ -10,7 +10,7 @@ An intelligent Voice AI Assistant built using Python that can listen to user voi
 🎯 Real-time Speech Processing
 🛠️ Technologies & Libraries Used
 
-##This project is built using the following Python libraries:
+## This project is built using the following Python libraries:
 
 Library	Purpose
 SpeechRecognition	Converts speech into text
@@ -20,10 +20,11 @@ pywin32	Windows API support
 pypiwin32	Windows-related extensions
 comtypes	COM interface support for speech engine
 typing_extensions	Additional typing support
-📦 Requirements
 
+## 📦 Requirements
+pip install -r requirments.txt
 
-##⚙️ Installation
+### ⚙️ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/ml_voice_ai_assistant.git
 2️⃣ Navigate to Project Folder
@@ -37,26 +38,26 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ▶️ Run the Project
 python main.py
-##📁 Project Structure
+## 📁 Project Structure
 ml_voice_ai_assistant/
 │
 ├── main.py                # Main application file
 ├── requirements.txt       # Project dependencies
 ├── README.md              # Project documentation
 └── assets/                # Optional assets folder
-##🎤 How It Works
+## 🎤 How It Works
 The assistant listens to your voice through the microphone.
 SpeechRecognition converts speech into text.
 The program processes the command.
 pyttsx3 generates a voice response.
 The assistant replies back through speakers.
-###💡 Example Commands
+### 💡 Example Commands
 “Hello Assistant”
 “What is the time?”
 “Open youtube”
 “Tell me a joke”
 “Search Python tutorials”
-##🌟 Future Improvements
+## 🌟 Future Improvements
 🤖 Integration with AI models
 🌐 Web search support
 📂 File handling commands
@@ -64,7 +65,7 @@ The assistant replies back through speakers.
 📱 GUI Interface
 🎵 Music control features
 🖥️ Platform Support
-##OS	Supported
+## OS	Supported
 Windows	✅
 Linux	⚠️ Limited
 macOS	⚠️ Limited
